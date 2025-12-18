@@ -12,7 +12,15 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Generated Prisma client and supporting files.
+    "lib/generated/**",
   ]),
+  {
+    rules: {
+      // We intentionally gate some client-only components with a mounted flag.
+      "react-hooks/set-state-in-effect": "off",
+    },
+  },
 ]);
 
 export default eslintConfig;
