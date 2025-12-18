@@ -1,6 +1,6 @@
 # Fullstack Discord Application 
 
-Next.js + Prisma + LiveKit Discord-style app with servers, channels, text/audio/video chat, uploads, invites, member roles, and realtime presence. Based on Antonio Erdeljac’s full course, adapted to PostgreSQL/Supabase instead of PlanetScale MySQL.
+Next.js + Prisma + LiveKit Discord-style app with servers, channels, text/audio/video chat, uploads, invites, member roles, and realtime presence. 
 
 ## Features
 - Auth with Clerk; auto-bootstraps user profiles
