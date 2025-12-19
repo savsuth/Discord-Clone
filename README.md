@@ -1,4 +1,4 @@
-# Fullstack Discord Application 
+# Discord Application 
 
 Next.js + Prisma + LiveKit Discord-style app with servers, channels, text/audio/video chat, uploads, invites, member roles, and realtime presence. 
 
