@@ -61,7 +61,6 @@ npx prisma db push
 4) Run the app  
 ```bash
 npm run dev
-# visit http://localhost:3000
 ```
 
 ## Scripts
